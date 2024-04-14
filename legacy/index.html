@@ -88,7 +88,10 @@
 
       body {
         background: rgb(255,255,255);
-        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(173,252,169,1) 35%, rgba(9,150,23,1) 100%);
+background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(173,252,169,1) 35%, rgba(9,150,23,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(173,252,169,1) 35%, rgba(9,150,23,1) 100%);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(173,252,169,1) 35%, rgba(9,150,23,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#099617",GradientType=1);
       }
 
       h1 {
@@ -123,3 +126,4 @@
    <h1 style="font-family: 'Manrope', sans-serif;">Legacy Downloads</h1>
    <h1 style="font-family: 'Manrope', sans-serif;">Under Construction</h1>
 </html>
+
